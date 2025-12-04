@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    background: #f1f1f1;
+    color: #222;
+}
+
+/* HEADER */
+.header {
+    text-align: center;
+    background: linear-gradient(135deg, #111, #333);
+    color: white;
+    padding: 50px 20px;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-bottom: 15px;
+}
+
+.header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header nav a:hover {
+    color: #00e5ff;
+}
+
+/* SECTIONS */
+.card {
+    background: white;
+    width: 90%;
+    max-width: 900px;
+    margin: 25px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 20px rgba(0,0,0,0.1);
+}
+
+/* SKILLS */
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-box {
+    background: #222;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+/* PROJECTS */
+.projects-container {
+    display: grid;
+    gap: 15px;
+}
+
+.project-card {
+    background: #fafafa;
+    padding: 15px;
+    border-radius: 10px;
+    border-left: 5px solid #0078ff;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: scale(1.03);
+    background: #fff;
+}
+
+/* CONTACT */
+.cv-btn {
+    display: inline-block;
+    margin-top: 15px;
+    background: #111;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.cv-btn:hover {
+    background: #0078ff;
+}
